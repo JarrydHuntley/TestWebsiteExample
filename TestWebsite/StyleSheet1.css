@@ -8,6 +8,15 @@
 
 
 .sectionOne,.sectionTwo{
+    color:burlywood;
+}
+.sectionTwo::after{
+    content: "The end.";
+    color: aquamarine;
+}
+
+#mainBorder{
+    border:groove;
 }
 
 p {
